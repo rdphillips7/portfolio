@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-lock" scroll-lock="false">
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="images" href="images/*">
+    <title>Portfolio</title>
+    <script src="js/nav.js" defer></script>
+    </head>
+
+    <div id="home" class="start">
+        <nav id="navbar">
+            <a class="logo" href=""><img src="images/logo.png"></a>
+            <button id="mobile-nav-toggle" class="mobile-nav-toggle">+</button>
+            <ul id="navigation" class="navigation" data-visible="false">
+                <li class="navbutton"><a href="#home">Home</a></li>
+                <li class="navbutton"><a href="#about">About</a></li>
+                <li class="navbutton"><a href="#projects">Projects</a></li>
+                <li class="navbutton"><button onclick="location.href='#contact'">Contact</button></li>
+            </ul>
+        </nav>
+
+        <div class="intro">
+            <div class="text">
+                <h1>
+                    // Ransom Phi<span>llips</span>
+                </h1>
+                <p>
+                    // <span>Front</span>end Web Developer
+                </p>
+                <div class="skills">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>React</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <body>
+        <section class="quote">
+            <div>
+                <p>"Any fool can know. The point is to understand."</p>
+                <h1>-Albert Einstein</h1>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="text">
+                <h1>About <span>[</span>Me<span>]</span></h1>
+                <p>My name is <span>Ransom Phillips</span>. I have...</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h1>Projects</h1>
+
+                <!--TODO: Turn the cards into buttons and make them pop up on hover-->
+
+                <div class="cards">
+                    <div type="POST" onclick="location.href='/project1.html'">
+                        <img src="images/bg1.jpg">
+                        <h3>Project 1</h3>
+                        <button>View More Details</button> 
+                    </div>
+                    <div type="POST" onclick="location.href='/project2.html'">
+                        <img src="images/bg3.jpg">
+                        <h3>Project 2</h3>
+                        <button>View More Details</button> 
+                    </div>
+                    <div type="POST" onclick="location.href='/project3.html'">
+                        <img src="images/bg5.jpg">
+                        <h3>Project 3</h3>
+                        <button>View More Details</button> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="info">
+                    <h1>Contact Me!</h1>
+                    <p>Let's make something <span>together!</span></p>
+                    <div>
+                        <img src="">
+                        <img src="">
+                        <img src="">
+                    </div>
+                </div>
+                <div class="form">
+
+                </div>
+            </div>
+        </section>
+
+
+    </body>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+
+    
+</html>
